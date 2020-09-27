@@ -1,0 +1,29 @@
+.stock-preview {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  background: #3f4963 !important;
+
+  .center {
+    margin: 0 auto;
+  }
+
+  .text-color {
+    color: white;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.stock-preview:hover {
+  transform: scale(1.05);
+}

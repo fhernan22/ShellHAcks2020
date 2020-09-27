@@ -1,0 +1,24 @@
+.company-info {
+  background: #f7f8fb;
+
+  .company-name {
+    color: #141d29;
+    font-size: 5rem;
+    padding: 20px;
+  }
+
+  .company-description {
+    width: 60%;
+    margin: 0 auto 20px;
+    padding: 10px;
+    line-height: 1.8;
+  }
+
+  .MuiTableCell-root {
+    text-align: center;
+  }
+
+  .plot {
+    margin-top: 60px;
+  }
+}
